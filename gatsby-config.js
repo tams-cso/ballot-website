@@ -23,6 +23,7 @@ module.exports = {
         name: `gatsby-starter-react-bootstrap`,
         short_name: `react-bootstrap`,
         start_url: `/`,
+	icon: `src/images/gatsby-icon.png`,
         background_color: `#20232a`,
         theme_color: `#20232a`,
         display: `minimal-ui`,
