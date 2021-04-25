@@ -1,9 +1,4 @@
-# Gatsby React Bootstrap Starter
+# TAMS Ballot Website 2020-2021
 
-A GatsbyJS starter that includes
-
-- react-bootstrap
-- react-icons
-- sticky on scroll navbar
-- SASS compiler
-- basic layout
+I don't know what I'm doing please help
+-Ted
