@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ballot.tams.club",
   "name": "gatsby-starter-react-bootstrap",
   "private": true,
   "description": "A starter that includes and configures react-bootstrap and react-icons, along with SASS handling. ",
