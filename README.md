@@ -1,5 +1,9 @@
-# Ballot Website 2020-2021
+# Gatsby React Bootstrap Starter
 
-I have no idea what I'm doing. Hit me up if you know anything about this.
+A GatsbyJS starter that includes
 
--Ted
+- react-bootstrap
+- react-icons
+- sticky on scroll navbar
+- SASS compiler
+- basic layout

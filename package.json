@@ -1,31 +1,31 @@
 {
   "name": "gatsby-starter-react-bootstrap",
+  "private": true,
   "description": "A starter that includes and configures react-bootstrap and react-icons, along with SASS handling. ",
   "version": "0.1.0",
   "author": "Billy Jacoby <billyjacoby@gmail.com>",
   "dependencies": {
-    "bootstrap": "^4.6.0",
-    "gatsby": "^3.3.1",
-    "gatsby-image": "^3.3.0",
-    "gatsby-plugin-manifest": "^3.3.0",
-    "gatsby-plugin-offline": "^4.3.0",
-    "gatsby-plugin-react-helmet": "^4.3.0",
-    "gatsby-plugin-sass": "^4.3.0",
-    "gatsby-plugin-sharp": "^3.3.1",
-    "gatsby-source-filesystem": "^3.3.0",
-    "gatsby-transformer-sharp": "^3.3.0",
-    "node-sass": "^5.0.0",
+    "bootstrap": "^4.3.1",
+    "gatsby": "^2.3.34",
+    "gatsby-image": "^2.0.41",
+    "gatsby-plugin-manifest": "^2.0.29",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-transformer-sharp": "^2.1.18",
+    "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-bootstrap": "^1.5.2",
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-icons": "^4.2.0",
-    "sharp": "^0.28.1"
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.6.1"
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0",
-    "prettier": "^2.2.1"
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.17.0"
   },
   "keywords": [
     "gatsby"
@@ -33,7 +33,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -H 0.0.0.0 -p 8000",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
