@@ -1,9 +1,9 @@
 module.exports = {
-  pathPrefix: "/gatsby-react-bootstrap-starter",
+  pathPrefix: "/",
   siteMetadata: {
-    title: `Gatsby React Bootstrap Starter`,
-    description: `A starter that includes react-bootstrap and react-icons, along with SASS compilation.`,
-    author: `Billy Jacoby`,
+    title: `TAMS Ballot 2021-2022`,
+    description: `The official TAMS Ballot website.`,
+    author: `TAMS Ballot`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,6 +26,7 @@ module.exports = {
         background_color: `#20232a`,
         theme_color: `#20232a`,
         display: `minimal-ui`,
+        icon: `${__dirname}/src/images/favicon512x512.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
