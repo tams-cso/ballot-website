@@ -17,9 +17,19 @@ const CustomNavbar = ({ pageInfo }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" activeKey={pageInfo && pageInfo.pageName}>
-            <Link to="/page-2" className="link-no-style">
-              <Nav.Link as="span" eventKey="page-2">
-                Page 2
+            <Link to="/scimun" className="link-no-style">
+              <Nav.Link as="span" eventKey="scimun">
+                SciMUN
+              </Nav.Link>
+            </Link>
+            <Link to="/ballot-buzz" className="link-no-style">
+              <Nav.Link as="span" eventKey="ballot-buzz">
+                Ballot Buzz
+              </Nav.Link>
+            </Link>
+            <Link to="/tedxtams" className="link-no-style">
+              <Nav.Link as="span" eventKey="tedxtams">
+                TedxYouth@TAMS
               </Nav.Link>
             </Link>
           </Nav>
