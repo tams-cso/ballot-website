@@ -7,7 +7,7 @@
 
 import React from "react"
 import { StaticQuery, graphql, Link } from "gatsby"
-
+import { FiFacebook, FiInstagram, FiMail } from "react-icons/fi"
 import { Container, Row, Col } from "react-bootstrap"
 
 import "@fontsource/montserrat"
@@ -48,9 +48,10 @@ const Layout = ({ children, pageInfo }) => (
             <Col className="footer-col">
               <footer>
                 <span>
-                  <Link href="https://www.facebook.com/groups/265378090967162/"> Facebook</Link> | 
-                  <Link href="https://www.instagram.com/ballot.tams"> Instagram</Link> |
-                  <Link href="mailto:ballot.tams@gmail.com"> Email</Link> | 
+                  Contact us: 
+                  <Link href="https://www.facebook.com/groups/265378090967162/" style={{ color:"White" }}> <FiFacebook /> </Link> | 
+                  <Link href="https://www.instagram.com/ballot.tams" style={{ color:"White" }}> <FiInstagram /> </Link> |
+                  <Link href="mailto:ballot.tams@gmail.com" style={{ color:"White" }}> <FiMail /> <br />  </Link>
                   © {new Date().getFullYear()} TAMS Ballot.
                 </span>
               </footer>
