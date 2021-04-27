@@ -1,19 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap"
 
 const CustomNavbar = ({ pageInfo }) => {
   console.log(pageInfo)
-  console.log(__dirname)
   return (
     <>
       <Navbar variant="dark" expand="lg" id="site-navbar">
         {/* <Container> */}
         <Link to="/" className="link-no-style">
           <Navbar.Brand as="span">
-            <StaticImage src="../images/ballot logo.png" />
+            Home
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

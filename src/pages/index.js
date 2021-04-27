@@ -11,6 +11,12 @@ const IndexPage = () => (
       <Row>
         <Col>
           <p>
+            This website is currently under construction.
+          </p>
+          <p>
+            -Ted Kwee-Bintoro
+          </p>
+          <p>
             This is a Gatsby Starter that I frequently use to get jump started
             on quick website builds. It includes the following packages:
           </p>

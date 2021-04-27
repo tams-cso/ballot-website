@@ -10,6 +10,8 @@ import { StaticQuery, graphql } from "gatsby"
 
 import { Container, Row, Col } from "react-bootstrap"
 
+import "@fontsource/montserrat"
+
 import Header from "./header"
 import Navbar from "./navBar"
 
