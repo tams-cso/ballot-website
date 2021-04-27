@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{Py9l:function(e,t,a){"use strict";a.r(t);var l=a("q1tI"),n=a.n(l),o=a("Wbzz"),r=a("Bl7J"),u=a("vrFN");t.default=function(){return n.a.createElement(r.a,{pageInfo:{pageName:"ballot-buzz"}},n.a.createElement(u.a,{title:"Ballot Buzz"}),n.a.createElement("h1",null,"The Ballot Buzz is where we do our shtuff"),n.a.createElement("p",null,"Welcome to page 2"),n.a.createElement(o.Link,{to:"/"},"Go back to the homepage"))}}}]);
+//# sourceMappingURL=component---src-pages-ballot-buzz-js-0126b9b02969f3c2dd39.js.map

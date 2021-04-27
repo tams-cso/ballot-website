@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{P7ST:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),c=a.n(n),l=a("Wbzz"),o=a("Bl7J"),i=a("vrFN");t.default=function(){return c.a.createElement(o.a,{pageInfo:{pageName:"scimun"}},c.a.createElement(i.a,{title:"SciMUN"}),c.a.createElement("h1",null,"we vibe at SciMUN"),c.a.createElement("p",null,"Welcome to page 2"),c.a.createElement(l.Link,{to:"/"},"Go back to the homepage"))}}}]);
+//# sourceMappingURL=component---src-pages-scimun-js-41e38a5af53a6b6e0760.js.map
