@@ -2,7 +2,7 @@
 
 TAMS Ballot Website 2020-2021
 =
-The official TAMS Ballot website for the 2021-2022 school year. Note that we're using Yarn rather than npm, because Netlify (our deployment tool) also uses Yarn. Base domain owned and managed by [TAMS CSO](cso.tams.club).
+The official TAMS Ballot website for the 2021-2022 school year. Note that we're using Yarn rather than npm, because Netlify (our deployment tool) also uses Yarn. Base domain owned and managed by [TAMS CSO](https://cso.tams.club/).
 
 Prerequisites
 -
