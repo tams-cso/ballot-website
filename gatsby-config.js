@@ -21,7 +21,23 @@ module.exports = {
         path: `${__dirname}/src/pages/ballot-buzz`
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+              linkImagesToOriginal: false,
+              sizeByPixelDensity: true,
+              showCaptions: true
+            }
+          },
+        ]
+      },
+    },
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
