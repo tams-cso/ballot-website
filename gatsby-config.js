@@ -14,6 +14,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `ballot-buzz`,
+        path: `${__dirname}/src/pages/ballot-buzz`
+      },
+    },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
