@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          <StaticImage src="../images/ballot logo.png" placeholder={ "blurred" } height={ 200 } quality={ 100 } layout={ "constrained" }/>
+          <StaticImage src="../images/ballot-logo.svg" placeholder={ "blurred" } height={ 200 } quality={ 100 } layout={ "constrained" }/>
         </Link>
       </h1>
     </div>
