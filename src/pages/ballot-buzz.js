@@ -9,7 +9,7 @@ const BallotBuzz = ({ data }) => (
         <SEO title="Ballot Buzz" />
         <h1>The Ballot Buzz</h1>
         <h4>{data.allMarkdownRemark.totalCount} articles</h4>
-        <p><i>All articles published as they were originally.</i></p>
+        <p><i>Articles edited for publication purposes.</i></p>
         {data.allMarkdownRemark.edges.map(({ node }) => (
             <div key={node.id}>
                 <Link to={node.frontmatter.slug}>
