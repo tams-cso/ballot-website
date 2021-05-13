@@ -33,18 +33,6 @@ const CustomNavbar = ({ pageInfo }) => {
               </Nav.Link>
             </Link>
           </Nav>
-          <Nav className="ml-auto">
-            <Form inline onSubmit={e => e.preventDefault()}>
-              <Form.Group>
-                <FormControl
-                  type="text"
-                  placeholder="Fake Search"
-                  className="mr-2"
-                />
-              </Form.Group>
-              <Button>Fake Button</Button>
-            </Form>
-          </Nav>
         </Navbar.Collapse>
         {/* </Container> */}
       </Navbar>
