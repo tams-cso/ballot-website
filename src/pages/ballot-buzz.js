@@ -7,9 +7,9 @@ import SEO from "../components/seo"
 const BallotBuzz = ({ data }) => (
     <Layout pageInfo={{ pageName: "ballot-buzz" }}>
         <SEO title="Ballot Buzz" />
-        <h1>The Ballot Buzz</h1>
+        <h1 style={{ textAlign: "center" }}>BALLOT BUZZ</h1>
+        <p style={{ textAlign: "center" }}><i>A WEEKLY NEWSLETTER FOR STUDENTS</i></p>
         <h4>{data.allMarkdownRemark.totalCount} articles</h4>
-        <p><i>Articles edited for publication purposes.</i></p>
         {data.allMarkdownRemark.edges.map(({ node }) => (
             <div key={node.id}>
                 <Link to={node.frontmatter.slug}>
