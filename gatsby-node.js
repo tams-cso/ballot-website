@@ -11,7 +11,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   
     const blogPostTemplate = require.resolve(`./src/templates/buzz-post.js`)
   
-    const result = await graphql(`
+    const buzzes = await graphql(`
       {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
@@ -30,15 +30,52 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     `)
   
     // Handle errors
-    if (result.errors) {
+    if (buzzes.errors) {
       reporter.panicOnBuild(`Error while running GraphQL query.`)
       return
     }
   
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    buzzes.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.slug,
         component: blogPostTemplate,
+        context: {
+          // additional data can be passed via context
+          slug: node.frontmatter.slug,
+        },
+      })
+    })
+
+    const tedxtamsTemplate = require.resolve(`./src/templates/tedxtams.js`)
+  
+    const talks = await graphql(`
+      {
+        allMarkdownRemark(
+          sort: { order: DESC, fields: [frontmatter___date] }
+          limit: 1000
+          filter: {fileAbsolutePath: {regex: "/(tedxtams)/"  }}
+        ) {
+          edges {
+            node {
+              frontmatter {
+                slug
+              }
+            }
+          }
+        }
+      }
+    `)
+  
+    // Handle errors
+    if (talks.errors) {
+      reporter.panicOnBuild(`Error while running GraphQL query.`)
+      return
+    }
+  
+    talks.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      createPage({
+        path: node.frontmatter.slug,
+        component: tedxtamsTemplate,
         context: {
           // additional data can be passed via context
           slug: node.frontmatter.slug,

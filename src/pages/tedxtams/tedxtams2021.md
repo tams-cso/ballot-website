@@ -2,6 +2,7 @@
 title: "TedxYouth@TAMS 2021"
 theme: "Renaissance: The Ethical Evolution"
 date: "2021-04-18"
+slug: "/tedxtams/2021"
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L3JUICX1Mcs" frameborder="0" allowfullscreen></iframe>

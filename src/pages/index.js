@@ -10,6 +10,25 @@ const IndexPage = () => (
     <Container className="text-center">
       <Row>
         <Col>
+          <h1>Who are we?</h1>
+          <p></p>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <div className="embed-responsive embed-responsive-16by9">
+            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/FCh_RQ1w4ns" allowfullscreen></iframe>
+          </div>
+          <br></br>
+          <p>Are you looking for a place where you can raise your voice?</p>
+          <p>Do you need a club where you can speak your mind?</p>
+          <p>Will you be the change you want to see in the world?</p>
+          <h2>Welcome home.</h2>
+        </Col>
+      </Row>
+      {/*
+      <Row>
+        <Col>
           <p>
             This website is currently under construction.
           </p>
@@ -69,6 +88,7 @@ const IndexPage = () => (
           </p>
         </Col>
       </Row>
+      */}
     </Container>
   </Layout>
 )
