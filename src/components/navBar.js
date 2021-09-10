@@ -7,7 +7,7 @@ const CustomNavbar = ({ pageInfo }) => {
   console.log(pageInfo)
   return (
     <>
-      <Navbar variant="dark" expand="lg" id="site-navbar">
+      <Navbar bg="#1155cc" variant="dark" expand="lg" id="site-navbar">
         {/* <Container> */}
         <Link to="/" className="link-no-style">
           <Navbar.Brand as="span">

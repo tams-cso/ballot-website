@@ -6,7 +6,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#20232a`,
+      background: `#1155cc`,
     }}
   >
     <div
@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          <StaticImage src="../images/ballot-logo.svg" placeholder={ "blurred" } height={ 200 } quality={ 100 } layout={ "constrained" }/>
+          <StaticImage src="../images/ballot-logo2.svg" placeholder={ "blurred" } height={ 200 } quality={ 100 } layout={ "constrained" }/>
         </Link>
       </h1>
     </div>
