@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Row, Col, Container, ListGroup } from "react-bootstrap"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,7 +8,7 @@ import SEO from "../components/seo"
 const SciMUN = () => (
   <Layout pageInfo={{ pageName: "execs" }}>
     <SEO title="Execs" />
-    <h1>Meet the Execs</h1>
+    <h1 style={{ textAlign: "center" }}>Meet the Execs</h1>
     <p>President: Ted Kwee-Bintoro</p>
     <p>Director of Competitions: Audrey Hopkin</p>
     <p>Director of Events: Daphne Sahaya</p>
